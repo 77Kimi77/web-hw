@@ -126,3 +126,27 @@ h2{
     padding: 20px;
     background: #f5f5f5;
 }
+
+.container-grid {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "img1grid img2grid img3grid"
+    "img4grid text-block-grid text-block-grid"
+    "img5grid text-block-grid text-block-grid";
+}
+
+.img3grid { grid-area: img3grid; }
+
+.text-block-grid { grid-area: text-block-grid; }
+
+.img1grid { grid-area: img1grid; }
+
+.img2grid { grid-area: img2grid; }
+
+.img4grid { grid-area: img4grid; }
+
+.img5grid { grid-area: img5grid; }
+
