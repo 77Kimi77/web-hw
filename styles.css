@@ -150,3 +150,6 @@ h2{
 
 .img5grid { grid-area: img5grid; }
 
+.error {
+    border-color: red;
+}
